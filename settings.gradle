@@ -1,0 +1,20 @@
+// settings.gradle
+pluginManagement {
+    repositories {
+        // Este é o repositório onde o Gradle vai encontrar os plugins
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Ceep"
+include ':app'
