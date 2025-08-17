@@ -13,7 +13,6 @@ import br.com.alura.ceep.databinding.ActivityListaNotasBinding
 import br.com.alura.ceep.extensions.vaiPara
 import br.com.alura.ceep.ui.recyclerview.adapter.ListaNotasAdapter
 import kotlinx.coroutines.launch
-
 class ListaNotasActivity : AppCompatActivity() {
 
     private val binding by lazy {
