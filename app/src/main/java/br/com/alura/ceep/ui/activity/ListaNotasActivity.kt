@@ -36,7 +36,6 @@ class ListaNotasActivity : AppCompatActivity() {
             }
         }
     }
-
     private fun configuraFab() {
         binding.activityListaNotasFab.setOnClickListener {
             Intent(this, FormNotaActivity::class.java).apply {

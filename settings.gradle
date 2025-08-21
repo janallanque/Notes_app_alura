@@ -1,7 +1,6 @@
 // settings.gradle
 pluginManagement {
     repositories {
-        // Este é o repositório onde o Gradle vai encontrar os plugins
         google()
         gradlePluginPortal()
         mavenCentral()
